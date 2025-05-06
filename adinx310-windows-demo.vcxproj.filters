@@ -1,0 +1,606 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="adinx310-driver\ses-proxy-srv\src\RPC_client_process.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-proxy-srv\src\RPC_init_api_sets.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-route-srv\src\SES_ROUTE_api.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_api_sets.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_bootloader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_event.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_event_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_event_smp_callback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_firmware.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_frame_api.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_frame_api_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_frame_api_smp_callback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_lldp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_lldp_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_lldp_smp_callback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_logical_mac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_logical_mac_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_logical_mac_smp_callback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_preemption.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_preemption_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_preemption_smp_callback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_prp_hsr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_prp_hsr_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_prp_hsr_smp_callback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_scheduled_traffic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_scheduled_traffic_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_scheduled_traffic_smp_callback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_stream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_stream_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_stream_smp_callback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_switch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_switch_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_switch_smp_callback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_switch_time.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_switch_time_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_switch_time_smp_callback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_time_synchronization.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_time_synchronization_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_time_synchronization_smp_callback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_vlan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_vlan_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_vlan_smp_callback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\smp-stk\src\SMP_eth_fork.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\smp-stk\src\SMP_stack_api.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_frer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_frer_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_frer_smp_callback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_mrp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_mrp_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_mrp_smp_callback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_psfp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_psfp_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_psfp_smp_callback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_sendlist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_sendList_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_sendList_smp_callback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_igmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_igmp_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_igmp_smp_callback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-windows-port-srv\src\eth\SES_PORT_ETH_interface.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-windows-port-srv\src\common\SES_PORT_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-windows-port-srv\src\common\SES_PORT_semaphore.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-windows-port-srv\src\spi\SES_PORT_SPI_interface.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example\src\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example\src\SES_example_event.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example\src\SES_example_firmware_update.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example\src\SES_example_frame_api.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example\src\SES_example_frer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example\src\SES_example_igmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example\src\SES_example_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example\src\SES_example_lldp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example\src\SES_example_logical_mac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example\src\SES_example_mrp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example\src\SES_example_preemption.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example\src\SES_example_prp_hsr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example\src\SES_example_scheduled_traffic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example\src\SES_example_sendList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example\src\SES_example_switch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example\src\SES_example_time_synchronization.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example\src\SES_example_vlan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example\src\SES_example_psfp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example\src\SES_example_config.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_mstp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_mstp_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_mstp_smp_callback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-windows-port-srv\src\common\SES_PORT_firmware_update.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_firmware_update_control.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adinx310-driver\ses-tsn-api-srv\src\SES_firmware_update_examples.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example\src\SES_example_mstp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="winpcap\include\bittypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winpcap\include\ip6_misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winpcap\include\Packet32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winpcap\include\pcap-bpf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winpcap\include\pcap-namedb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winpcap\include\pcap-stdinc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winpcap\include\pcap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winpcap\include\remote-ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winpcap\include\Win32-Extensions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winpcap\include\pcap\bluetooth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winpcap\include\pcap\bpf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winpcap\include\pcap\namedb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winpcap\include\pcap\pcap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winpcap\include\pcap\sll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winpcap\include\pcap\usb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winpcap\include\pcap\vlan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-proxy-srv\inc\RPC_client_process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-proxy-srv\inc\RPC_data_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-proxy-srv\inc\RPC_debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-proxy-srv\inc\RPC_defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-proxy-srv\inc\RPC_macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-route-srv\inc\SES_ROUTE_library.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_codes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_event_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_firmware_update.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_frame_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_frame_api_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_fw_update_params.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_interface_management.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_lldp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_lldp_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_logical_mac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_logical_mac_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_port_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_preemption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_preemption_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_prp_hsr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_prp_hsr_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_scheduled_traffic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_scheduled_traffic_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_stream_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_switch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_switch_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_switch_time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_switch_time_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_time_synchronization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_time_synchronization_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_vlan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_vlan_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\smp-stk\inc\SMP_debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\smp-stk\inc\SMP_eth_fork.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\smp-stk\inc\SMP_services.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\smp-stk\inc\SMP_stack_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\tsn-model-srv\inc\TSN_ieee802_dot1q_bridge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\tsn-model-srv\inc\TSN_ieee802_dot1q_preempt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\tsn-model-srv\inc\TSN_ieee802_dot1q_psfp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\tsn-model-srv\inc\TSN_ieee802_dot1q_sched.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\tsn-model-srv\inc\TSN_ieee802_dot1q_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\tsn-model-srv\inc\TSN_prp_hsr_model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_frer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_frer_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_mrp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_mrp_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_psfp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_psfp_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_sendlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_sendlist_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_igmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_igmp_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-windows-port-srv\inc\SES_PORT_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example\inc\SES_example_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example\inc\SES_example_firmware_update.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example\inc\SES_example_frame_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example\inc\SES_example_frer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example\inc\SES_example_igmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example\inc\SES_example_init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example\inc\SES_example_lldp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example\inc\SES_example_logical_mac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example\inc\SES_example_mrp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example\inc\SES_example_portConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example\inc\SES_example_preemption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example\inc\SES_example_prp_hsr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example\inc\SES_example_scheduled_traffic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example\inc\SES_example_sendList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example\inc\SES_example_switch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example\inc\SES_example_time_synchronization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example\inc\SES_example_vlan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example\inc\SES_example_psfp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example\inc\SES_example_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SES_configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_mstp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_mstp_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\tsn-model-srv\inc\TSN_ieee802_dot1cb_frer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\tsn-model-srv\inc\TSN_ieee802_dot1cb_stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\tsn-model-srv\inc\TSN_ieee802_dot1q_mstp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\tsn-model-srv\inc\TSN_ietf_yang_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\tsn-model-srv\inc\TSN_ptp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-windows-port-srv\inc\SES_PORT_firmware_update.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_firmware_update_examples.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adinx310-driver\ses-tsn-api-srv\inc\SES_firmware_update_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example\inc\SES_example_mstp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
