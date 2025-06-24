@@ -1,3 +1,6 @@
+NOTE: This forks will try to port it to Mac OS. No clue if thta is even possible, but will try
+
+PdV
 
 # Overview:
 ___
